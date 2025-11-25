@@ -3,8 +3,8 @@ spring:
     log-request-details: true
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
-    username: myuser
-    password: secret
+    username: postgres
+    password: postgres
   sql:
     init:
       mode: always
